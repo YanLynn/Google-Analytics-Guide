@@ -1,8 +1,8 @@
 # Google-Analytics-Guide
 	
 
- - Create Google Analytics
+ - [Create Google Analytics](create-googleAnalytics.md)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTE5ODE0Nl19
+eyJoaXN0b3J5IjpbMTc5NzEyNTcyNF19
 -->
