@@ -1,8 +1,8 @@
 # Google-Analytics-Guide
 	
-
+ - [Install Laravel Analytics Package](laravel-analytics.md)
  - [Create Google Analytics Account](create-googleAnalytics.md)
-- [Install Laravel Analytics Package](laravel-analytics.md)
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzgwNzkyMiwxNzk3MTI1NzI0XX0=
+eyJoaXN0b3J5IjpbLTg1ODY1NzAzOCwxNzk3MTI1NzI0XX0=
 -->
