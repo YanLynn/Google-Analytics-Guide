@@ -2,10 +2,7 @@
 	
 
  - [Create Google Analytics Account](create-googleAnalytics.md)
- ```javascript
-$(document).ready(function(){
-})
-```
+- Install Laravel Analytics Package
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTU2NzAzMywxNzk3MTI1NzI0XX0=
+eyJoaXN0b3J5IjpbLTEwMzg4MDg3NzYsMTc5NzEyNTcyNF19
 -->
