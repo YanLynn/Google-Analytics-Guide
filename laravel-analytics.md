@@ -38,7 +38,12 @@ return [
  ],
 ];
 ```
+
+**'service_account_credentials_json' => storage_path('app/analytics/service-account-credentials.json'),**
+***service-account-credentials.json*** =>  file ရဖို့ အတွက် google console api မှာ project တခုဆောက်ဖို့ လိုပါတယ် 
+အ့ကနေမှ api key download လုပ်ရမှာပါ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjk1MTQxNSwtMTQ4ODEyOTIzNCw1MD
-g2NDk5NzEsLTIwMTQ2ODkyMjQsLTU1MzMyMzUyOF19
+eyJoaXN0b3J5IjpbLTUwMTA0NTUxNCwtNjI2OTUxNDE1LC0xND
+g4MTI5MjM0LDUwODY0OTk3MSwtMjAxNDY4OTIyNCwtNTUzMzIz
+NTI4XX0=
 -->
