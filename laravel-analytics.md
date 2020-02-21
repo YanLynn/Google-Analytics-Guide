@@ -52,6 +52,9 @@ return [
 :zap: Usage 
 =======================
 ```php
+use Analytics;
+use Spatie\Analytics\Period;
+
 //retrieve visitors and pageview data for the current day and the last seven days
 $analyticsData = Analytics::fetchVisitorsAndPageViews(Period::days(7));
 //retrieve visitors and pageviews since the 6 months ago
@@ -83,10 +86,10 @@ $start = Carbon::createFromFormat('Y-m-d', substr($request->startDate, 0, 10));
 $end = Carbon::createFromFormat('Y-m-d', substr($request->endDate, 0, 10));
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5MTgyMjgzLC01NTM2NjI4NzEsLTEzOD
-g4NjA1NzUsLTE3NDgzMzYwMDYsLTI5NDAzODMzMiw3ODMzNTgy
-NDQsNzgzMzU4MjQ0LC0yNDk1MDU2NDgsMjAxNDMyNTQ4NSwxMD
-k4NjUxODUxLC03NTMxMjE5MDQsLTYyNjk1MTQxNSwtMTQ4ODEy
-OTIzNCw1MDg2NDk5NzEsLTIwMTQ2ODkyMjQsLTU1MzMyMzUyOF
-19
+eyJoaXN0b3J5IjpbLTExODY1MDcxMjIsLTU1MzY2Mjg3MSwtMT
+M4ODg2MDU3NSwtMTc0ODMzNjAwNiwtMjk0MDM4MzMyLDc4MzM1
+ODI0NCw3ODMzNTgyNDQsLTI0OTUwNTY0OCwyMDE0MzI1NDg1LD
+EwOTg2NTE4NTEsLTc1MzEyMTkwNCwtNjI2OTUxNDE1LC0xNDg4
+MTI5MjM0LDUwODY0OTk3MSwtMjAxNDY4OTIyNCwtNTUzMzIzNT
+I4XX0=
 -->
