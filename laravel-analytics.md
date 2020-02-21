@@ -8,7 +8,9 @@ install ပြီးသွားရင်တော့ vendor public လုပ်
 ```php
 php artisan vendor:publish --provider="Spatie\Analytics\AnalyticsServiceProvider"
 ```
+vendor public လုပ်ပြီးရင် config/analytics.php file ဆောက်ပေးသွားပါလိမ့်မယ်
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODgxMjkyMzQsNTA4NjQ5OTcxLC0yMD
-E0Njg5MjI0LC01NTMzMjM1MjhdfQ==
+eyJoaXN0b3J5IjpbLTE1OTg5MjE2MDQsLTE0ODgxMjkyMzQsNT
+A4NjQ5OTcxLC0yMDE0Njg5MjI0LC01NTMzMjM1MjhdfQ==
 -->
