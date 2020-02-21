@@ -1,4 +1,4 @@
-
+**Install laravel analytics package**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODg3NDY2MTIsLTU1MzMyMzUyOF19
+eyJoaXN0b3J5IjpbMTg4NDg3MjEwNCwtNTUzMzIzNTI4XX0=
 -->
