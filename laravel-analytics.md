@@ -40,10 +40,10 @@ return [
 ```
 
 ***service-account-credentials.json*** =>  file ရဖို့ အတွက် google console api မှာ project တခုဆောက်ဖို့ လိုပါတယ် <br>
- => **[Google API’s site](https://console.developers.google.com/apis/)**  <br>
-=> Project Create ပြုလုပ်ပုံအဆင့်ဆင့်နဲ့ Key ယူပုံကို [create-google](google-console.md) မှာ ရှင်းပြထားပါတယ်
+ > **[Google API’s site](https://console.developers.google.com/apis/)** 
+ > Project Create ပြုလုပ်ပုံအဆင့်ဆင့်နဲ့ Key ယူပုံကို [create-google](google-console.md) မှာ ရှင်းပြထားပါတယ်
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTE4MTY2NiwtMjQ5NTA1NjQ4LDIwMT
+eyJoaXN0b3J5IjpbLTc1Mzc4MTQ3OCwtMjQ5NTA1NjQ4LDIwMT
 QzMjU0ODUsMTA5ODY1MTg1MSwtNzUzMTIxOTA0LC02MjY5NTE0
 MTUsLTE0ODgxMjkyMzQsNTA4NjQ5OTcxLC0yMDE0Njg5MjI0LC
 01NTMzMjM1MjhdfQ==
