@@ -46,12 +46,12 @@ return [
  > Project Create ပြုလုပ်ပုံအဆင့်ဆင့်နဲ့ Key ယူပုံကို [create-google-console](google-console.md) မှာ ရှင်းပြထားပါတယ်
  
  ------------------------------------------------
- >**Usage**
+ **Usage**
 ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODU5Mjc1LC0xNzQ4MzM2MDA2LC0yOT
-QwMzgzMzIsNzgzMzU4MjQ0LDc4MzM1ODI0NCwtMjQ5NTA1NjQ4
-LDIwMTQzMjU0ODUsMTA5ODY1MTg1MSwtNzUzMTIxOTA0LC02Mj
-Y5NTE0MTUsLTE0ODgxMjkyMzQsNTA4NjQ5OTcxLC0yMDE0Njg5
-MjI0LC01NTMzMjM1MjhdfQ==
+eyJoaXN0b3J5IjpbLTEzODg4NjA1NzUsLTE3NDgzMzYwMDYsLT
+I5NDAzODMzMiw3ODMzNTgyNDQsNzgzMzU4MjQ0LC0yNDk1MDU2
+NDgsMjAxNDMyNTQ4NSwxMDk4NjUxODUxLC03NTMxMjE5MDQsLT
+YyNjk1MTQxNSwtMTQ4ODEyOTIzNCw1MDg2NDk5NzEsLTIwMTQ2
+ODkyMjQsLTU1MzMyMzUyOF19
 -->
