@@ -66,8 +66,14 @@ $analyticsData = Analytics::performQuery(
  ]
 );
 ```
+
+```php
+$startDate = Carbon::now()->subYear();
+$endDate = Carbon::now();
+Period::create($startDate, $endDate);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTA3MzE1MywtMTM4ODg2MDU3NSwtMT
+eyJoaXN0b3J5IjpbLTU1MzY2Mjg3MSwtMTM4ODg2MDU3NSwtMT
 c0ODMzNjAwNiwtMjk0MDM4MzMyLDc4MzM1ODI0NCw3ODMzNTgy
 NDQsLTI0OTUwNTY0OCwyMDE0MzI1NDg1LDEwOTg2NTE4NTEsLT
 c1MzEyMTkwNCwtNjI2OTUxNDE1LC0xNDg4MTI5MjM0LDUwODY0
