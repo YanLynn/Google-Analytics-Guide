@@ -51,10 +51,25 @@ return [
 
 :zap: Usage 
 =======================
+```php
+//retrieve visitors and pageview data for the current day and the last seven days
+$analyticsData = Analytics::fetchVisitorsAndPageViews(Period::days(7));
+//retrieve visitors and pageviews since the 6 months ago
+$analyticsData = Analytics::fetchVisitorsAndPageViews(Period::months(6));
+//retrieve sessions and pageviews with yearMonth dimension since 1 year ago 
+$analyticsData = Analytics::performQuery(
+ Period::years(1),
+ 'ga:sessions',
+ [
+ 'metrics' => 'ga:sessions, ga:pageviews',
+ 'dimensions' => 'ga:yearMonth'
+ ]
+);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyNTc2NTQzLC0xMzg4ODYwNTc1LC0xNz
-Q4MzM2MDA2LC0yOTQwMzgzMzIsNzgzMzU4MjQ0LDc4MzM1ODI0
-NCwtMjQ5NTA1NjQ4LDIwMTQzMjU0ODUsMTA5ODY1MTg1MSwtNz
-UzMTIxOTA0LC02MjY5NTE0MTUsLTE0ODgxMjkyMzQsNTA4NjQ5
-OTcxLC0yMDE0Njg5MjI0LC01NTMzMjM1MjhdfQ==
+eyJoaXN0b3J5IjpbLTM4NTA3MzE1MywtMTM4ODg2MDU3NSwtMT
+c0ODMzNjAwNiwtMjk0MDM4MzMyLDc4MzM1ODI0NCw3ODMzNTgy
+NDQsLTI0OTUwNTY0OCwyMDE0MzI1NDg1LDEwOTg2NTE4NTEsLT
+c1MzEyMTkwNCwtNjI2OTUxNDE1LC0xNDg4MTI5MjM0LDUwODY0
+OTk3MSwtMjAxNDY4OTIyNCwtNTUzMzIzNTI4XX0=
 -->
