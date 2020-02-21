@@ -1,6 +1,6 @@
 ## **Install laravel analytics package**
 Laravel google analytics package ထည့်သွင်းရာမှာ laravel 5.8 အတွက် google analytics 3.7.0 နဲ့ အထက် မှ အဆင်ပြေမှာပါ 
-laravel version 5.8 အောက်ဆိုရင်လဲ အဆင်မပြေပါဘူး ။ laravel 5.8 => google analytics 3.7 ဆိုရင် ရပါပြီ
+laravel version 5.8 အောက်ဆိုရင်လဲ အဆင်မပြေပါဘူး ။ laravel 5.8 => google analytics 3.7 ဆိုရင် ရပါပြီ <br>
 ![](https://img.shields.io/badge/laravel-5.8-red) ![](https://img.shields.io/badge/google--analytics-3.7-blue)
 ```php
 - composer require spatie/laravel-analytics 3.7
@@ -189,10 +189,10 @@ class googleAnalyticsController extends Controller
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODczNTQxMSwzMDg0MTgyOSwtMTg5Nj
-E5MDY5MiwtNTUzNjYyODcxLC0xMzg4ODYwNTc1LC0xNzQ4MzM2
-MDA2LC0yOTQwMzgzMzIsNzgzMzU4MjQ0LDc4MzM1ODI0NCwtMj
-Q5NTA1NjQ4LDIwMTQzMjU0ODUsMTA5ODY1MTg1MSwtNzUzMTIx
-OTA0LC02MjY5NTE0MTUsLTE0ODgxMjkyMzQsNTA4NjQ5OTcxLC
-0yMDE0Njg5MjI0LC01NTMzMjM1MjhdfQ==
+eyJoaXN0b3J5IjpbNDY0NjE4NzExLDMwODQxODI5LC0xODk2MT
+kwNjkyLC01NTM2NjI4NzEsLTEzODg4NjA1NzUsLTE3NDgzMzYw
+MDYsLTI5NDAzODMzMiw3ODMzNTgyNDQsNzgzMzU4MjQ0LC0yND
+k1MDU2NDgsMjAxNDMyNTQ4NSwxMDk4NjUxODUxLC03NTMxMjE5
+MDQsLTYyNjk1MTQxNSwtMTQ4ODEyOTIzNCw1MDg2NDk5NzEsLT
+IwMTQ2ODkyMjQsLTU1MzMyMzUyOF19
 -->
