@@ -101,18 +101,13 @@ class googleAnalyticsController extends Controller
     public function analytics(Request $request)
     {
 
-
-        
         $startDate = date_create($request->startDate);
         $endDate = date_create($request->endDate);
-
-
 
         $start = Carbon::createFromFormat('Y-m-d', substr($request->startDate, 0, 10));
         $end = Carbon::createFromFormat('Y-m-d', substr($request->endDate, 0, 10));
 
         $dates = [];
-
         while ($start->lte($end)) {
 
             $dates[] = $start->copy()->format('Y-m-d');
@@ -120,12 +115,6 @@ class googleAnalyticsController extends Controller
             // $start->addMonth();
             $start->addDay();
         }
-
-        return $dates;
-    
-       
-
-
 
         $browser = Analytics::fetchTopBrowsers($date);
         $mostVisitedPages = Analytics::fetchMostVisitedPages($date);
@@ -177,10 +166,10 @@ class googleAnalyticsController extends Controller
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MjQ1Mzc3MCwtNTUzNjYyODcxLC0xMz
-g4ODYwNTc1LC0xNzQ4MzM2MDA2LC0yOTQwMzgzMzIsNzgzMzU4
-MjQ0LDc4MzM1ODI0NCwtMjQ5NTA1NjQ4LDIwMTQzMjU0ODUsMT
-A5ODY1MTg1MSwtNzUzMTIxOTA0LC02MjY5NTE0MTUsLTE0ODgx
-MjkyMzQsNTA4NjQ5OTcxLC0yMDE0Njg5MjI0LC01NTMzMjM1Mj
-hdfQ==
+eyJoaXN0b3J5IjpbLTE4OTYxOTA2OTIsLTU1MzY2Mjg3MSwtMT
+M4ODg2MDU3NSwtMTc0ODMzNjAwNiwtMjk0MDM4MzMyLDc4MzM1
+ODI0NCw3ODMzNTgyNDQsLTI0OTUwNTY0OCwyMDE0MzI1NDg1LD
+EwOTg2NTE4NTEsLTc1MzEyMTkwNCwtNjI2OTUxNDE1LC0xNDg4
+MTI5MjM0LDUwODY0OTk3MSwtMjAxNDY4OTIyNCwtNTUzMzIzNT
+I4XX0=
 -->
