@@ -108,7 +108,7 @@ $end = Carbon::createFromFormat('Y-m-d', substr($request->endDate, 0, 10));
             ];
         });
 ```
-
+>googleAnalyticsController.php (Healthcare-portal)
 ```php
 <?php
 
@@ -188,10 +188,10 @@ class googleAnalyticsController extends Controller
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDg3MDk3NywtMTg5NjE5MDY5MiwtNT
-UzNjYyODcxLC0xMzg4ODYwNTc1LC0xNzQ4MzM2MDA2LC0yOTQw
-MzgzMzIsNzgzMzU4MjQ0LDc4MzM1ODI0NCwtMjQ5NTA1NjQ4LD
-IwMTQzMjU0ODUsMTA5ODY1MTg1MSwtNzUzMTIxOTA0LC02MjY5
-NTE0MTUsLTE0ODgxMjkyMzQsNTA4NjQ5OTcxLC0yMDE0Njg5Mj
-I0LC01NTMzMjM1MjhdfQ==
+eyJoaXN0b3J5IjpbMzA4NDE4MjksLTE4OTYxOTA2OTIsLTU1Mz
+Y2Mjg3MSwtMTM4ODg2MDU3NSwtMTc0ODMzNjAwNiwtMjk0MDM4
+MzMyLDc4MzM1ODI0NCw3ODMzNTgyNDQsLTI0OTUwNTY0OCwyMD
+E0MzI1NDg1LDEwOTg2NTE4NTEsLTc1MzEyMTkwNCwtNjI2OTUx
+NDE1LC0xNDg4MTI5MjM0LDUwODY0OTk3MSwtMjAxNDY4OTIyNC
+wtNTUzMzIzNTI4XX0=
 -->
