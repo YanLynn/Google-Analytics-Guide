@@ -4,11 +4,11 @@ laravel version 5.8 အောက်ဆိုရင်လဲ အဆင်မပ�
 ```php
 - composer require spatie/laravel-analytics 3.7
 ```
-
+install ပြီးသွားရင်တော့ vendor public လုပ်ပေးရပါမယ်
 ```php
 php artisan vendor:publish --provider="Spatie\Analytics\AnalyticsServiceProvider"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzgzNzc5NjksNTA4NjQ5OTcxLC0yMD
+eyJoaXN0b3J5IjpbLTE0ODgxMjkyMzQsNTA4NjQ5OTcxLC0yMD
 E0Njg5MjI0LC01NTMzMjM1MjhdfQ==
 -->
