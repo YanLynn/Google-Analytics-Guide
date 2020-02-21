@@ -77,11 +77,16 @@ Period::create($startDate, $endDate);
 $startDate = date_create($request->startDate);
 $endDate = date_create($request->endDate);
 ```
+
+```php
+$start = Carbon::createFromFormat('Y-m-d', substr($request->startDate, 0, 10));
+$end = Carbon::createFromFormat('Y-m-d', substr($request->endDate, 0, 10));
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Mzc2NDM0MywtNTUzNjYyODcxLC0xMz
-g4ODYwNTc1LC0xNzQ4MzM2MDA2LC0yOTQwMzgzMzIsNzgzMzU4
-MjQ0LDc4MzM1ODI0NCwtMjQ5NTA1NjQ4LDIwMTQzMjU0ODUsMT
-A5ODY1MTg1MSwtNzUzMTIxOTA0LC02MjY5NTE0MTUsLTE0ODgx
-MjkyMzQsNTA4NjQ5OTcxLC0yMDE0Njg5MjI0LC01NTMzMjM1Mj
-hdfQ==
+eyJoaXN0b3J5IjpbODc5MTgyMjgzLC01NTM2NjI4NzEsLTEzOD
+g4NjA1NzUsLTE3NDgzMzYwMDYsLTI5NDAzODMzMiw3ODMzNTgy
+NDQsNzgzMzU4MjQ0LC0yNDk1MDU2NDgsMjAxNDMyNTQ4NSwxMD
+k4NjUxODUxLC03NTMxMjE5MDQsLTYyNjk1MTQxNSwtMTQ4ODEy
+OTIzNCw1MDg2NDk5NzEsLTIwMTQ2ODkyMjQsLTU1MzMyMzUyOF
+19
 -->
