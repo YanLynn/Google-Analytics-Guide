@@ -9,8 +9,36 @@ install ပြီးသွားရင်တော့ vendor public လုပ်
 php artisan vendor:publish --provider="Spatie\Analytics\AnalyticsServiceProvider"
 ```
 vendor public လုပ်ပြီးရင် config/analytics.php file ဆောက်ပေးသွားပါလိမ့်မယ်
-
+```php
+return [
+ /*
+ * The view id of which you want to display data.
+ */
+ 'view_id' => env('ANALYTICS_VIEW_ID'),
+ /*
+ * Path to the client secret json file. Take a look at the README of this package
+ * to learn how to get this file. You can also pass the credentials as an array 
+ * instead of a file path.
+ */
+ 'service_account_credentials_json' => storage_path('app/analytics/service-account-credentials.json'),
+ /*
+ * The amount of minutes the Google API responses will be cached.
+ * If you set this to zero, the responses won't be cached at all.
+ */
+ 'cache_lifetime_in_minutes' => 60 * 24,
+ /*
+ * Here you may configure the "store" that the underlying Google_Client will
+ * use to store it's data.  You may also add extra parameters that will
+ * be passed on setCacheConfig (see docs for google-api-php-client).
+ *
+ * Optional parameters: "lifetime", "prefix"
+ */
+ 'cache' => [
+ 'store' => 'file',
+ ],
+];
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTg5MjE2MDQsLTE0ODgxMjkyMzQsNT
-A4NjQ5OTcxLC0yMDE0Njg5MjI0LC01NTMzMjM1MjhdfQ==
+eyJoaXN0b3J5IjpbLTYyNjk1MTQxNSwtMTQ4ODEyOTIzNCw1MD
+g2NDk5NzEsLTIwMTQ2ODkyMjQsLTU1MzMyMzUyOF19
 -->
