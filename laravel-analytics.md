@@ -2,7 +2,7 @@
 
 
 > Written with laravel
- ![images](images/Capture.PNG)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzMyMzUyOF19
+eyJoaXN0b3J5IjpbMTE4NTg0MzMyMiwtNTUzMzIzNTI4XX0=
 -->
