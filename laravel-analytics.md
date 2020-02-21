@@ -72,10 +72,16 @@ $startDate = Carbon::now()->subYear();
 $endDate = Carbon::now();
 Period::create($startDate, $endDate);
 ```
+
+```php
+$startDate = date_create($request->startDate);
+$endDate = date_create($request->endDate);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzY2Mjg3MSwtMTM4ODg2MDU3NSwtMT
-c0ODMzNjAwNiwtMjk0MDM4MzMyLDc4MzM1ODI0NCw3ODMzNTgy
-NDQsLTI0OTUwNTY0OCwyMDE0MzI1NDg1LDEwOTg2NTE4NTEsLT
-c1MzEyMTkwNCwtNjI2OTUxNDE1LC0xNDg4MTI5MjM0LDUwODY0
-OTk3MSwtMjAxNDY4OTIyNCwtNTUzMzIzNTI4XX0=
+eyJoaXN0b3J5IjpbMTA4Mzc2NDM0MywtNTUzNjYyODcxLC0xMz
+g4ODYwNTc1LC0xNzQ4MzM2MDA2LC0yOTQwMzgzMzIsNzgzMzU4
+MjQ0LDc4MzM1ODI0NCwtMjQ5NTA1NjQ4LDIwMTQzMjU0ODUsMT
+A5ODY1MTg1MSwtNzUzMTIxOTA0LC02MjY5NTE0MTUsLTE0ODgx
+MjkyMzQsNTA4NjQ5OTcxLC0yMDE0Njg5MjI0LC01NTMzMjM1Mj
+hdfQ==
 -->
