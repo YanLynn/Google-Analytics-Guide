@@ -85,11 +85,102 @@ $endDate = date_create($request->endDate);
 $start = Carbon::createFromFormat('Y-m-d', substr($request->startDate, 0, 10));
 $end = Carbon::createFromFormat('Y-m-d', substr($request->endDate, 0, 10));
 ```
+
+
+```php
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Analytics;
+use Spatie\Analytics\Period;
+use Carbon\Carbon;
+class googleAnalyticsController extends Controller
+{
+    public function analytics(Request $request)
+    {
+
+
+        
+        $startDate = date_create($request->startDate);
+        $endDate = date_create($request->endDate);
+
+
+
+        $start = Carbon::createFromFormat('Y-m-d', substr($request->startDate, 0, 10));
+        $end = Carbon::createFromFormat('Y-m-d', substr($request->endDate, 0, 10));
+
+        $dates = [];
+
+        while ($start->lte($end)) {
+
+            $dates[] = $start->copy()->format('Y-m-d');
+            // $dates[] = date('F' , strtotime($date));
+            // $start->addMonth();
+            $start->addDay();
+        }
+
+        return $dates;
+    
+       
+
+
+
+        $browser = Analytics::fetchTopBrowsers($date);
+        $mostVisitedPages = Analytics::fetchMostVisitedPages($date);
+        $visitors = Analytics::fetchVisitorsAndPageViews($date);
+        $total_visitors = Analytics::fetchTotalVisitorsAndPageViews($date);
+        $top_referrers = Analytics::fetchTopReferrers($date);
+        $analyticsData = Analytics::performQuery(
+            Period::years(1),
+               'ga:sessions',
+               [
+                   'metrics' => 'ga:sessions, ga:pageviews',
+                   'dimensions' => 'ga:yearMonth,ga:country'
+               ]
+         );
+
+         $response = Analytics::performQuery(
+            Period::create($startDate, $endDate),
+            'ga:users,ga:sessions,ga:uniqueEvents,ga:pageviewsPerSession,ga:avgSessionDuration,ga:totalEvents',
+            ['dimensions' => 'ga:eventCategory,ga:eventAction,ga:eventLabel,ga:deviceCategory']
+        );
+
+         $eventReport = collect($response['rows'] ?? [])->map(function (array $dateRow) {
+            return [
+                'eventCategory'=> $dateRow[0],
+                'eventAction'=> $dateRow[1],
+                'eventLabel'=>$dateRow[2],
+                'deviceCategory'=>$dateRow[3],
+                'users' =>  $dateRow[4],
+                'sessions' =>  $dateRow[5],
+                'uniqueEvents' =>$dateRow[6],
+                'pageviewsPerSession' => $dateRow[7],
+                'avgSessionDuration' =>  $dateRow[8],
+                'totalEvents' =>  $dateRow[9],
+
+            ];
+        });
+
+        return response()->json([    'eventReport'=>$eventReport,
+                                     'browser'=>$browser,
+                                     'mostVisitedPages'=>$mostVisitedPages,
+                                     'visitors'=>$visitors,
+                                     'total_visitors'=>$total_visitors,
+                                     'top_referrers'=>$top_referrers,
+                                     'analyticsData'=>$analyticsData,
+                                     
+                                     ]);
+    }
+}
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODY1MDcxMjIsLTU1MzY2Mjg3MSwtMT
-M4ODg2MDU3NSwtMTc0ODMzNjAwNiwtMjk0MDM4MzMyLDc4MzM1
-ODI0NCw3ODMzNTgyNDQsLTI0OTUwNTY0OCwyMDE0MzI1NDg1LD
-EwOTg2NTE4NTEsLTc1MzEyMTkwNCwtNjI2OTUxNDE1LC0xNDg4
-MTI5MjM0LDUwODY0OTk3MSwtMjAxNDY4OTIyNCwtNTUzMzIzNT
-I4XX0=
+eyJoaXN0b3J5IjpbLTQ3MjQ1Mzc3MCwtNTUzNjYyODcxLC0xMz
+g4ODYwNTc1LC0xNzQ4MzM2MDA2LC0yOTQwMzgzMzIsNzgzMzU4
+MjQ0LDc4MzM1ODI0NCwtMjQ5NTA1NjQ4LDIwMTQzMjU0ODUsMT
+A5ODY1MTg1MSwtNzUzMTIxOTA0LC02MjY5NTE0MTUsLTE0ODgx
+MjkyMzQsNTA4NjQ5OTcxLC0yMDE0Njg5MjI0LC01NTMzMjM1Mj
+hdfQ==
 -->
