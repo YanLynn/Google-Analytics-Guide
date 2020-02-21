@@ -85,7 +85,29 @@ $endDate = date_create($request->endDate);
 $start = Carbon::createFromFormat('Y-m-d', substr($request->startDate, 0, 10));
 $end = Carbon::createFromFormat('Y-m-d', substr($request->endDate, 0, 10));
 ```
+```php
+ $response = Analytics::performQuery(
+            Period::create($startDate, $endDate),
+            'ga:users,ga:sessions,ga:uniqueEvents,ga:pageviewsPerSession,ga:avgSessionDuration,ga:totalEvents',
+            ['dimensions' => 'ga:eventCategory,ga:eventAction,ga:eventLabel,ga:deviceCategory']
+        );
 
+         $eventReport = collect($response['rows'] ?? [])->map(function (array $dateRow) {
+            return [
+                'eventCategory'=> $dateRow[0],
+                'eventAction'=> $dateRow[1],
+                'eventLabel'=>$dateRow[2],
+                'deviceCategory'=>$dateRow[3],
+                'users' =>  $dateRow[4],
+                'sessions' =>  $dateRow[5],
+                'uniqueEvents' =>$dateRow[6],
+                'pageviewsPerSession' => $dateRow[7],
+                'avgSessionDuration' =>  $dateRow[8],
+                'totalEvents' =>  $dateRow[9],
+
+            ];
+        });
+```
 
 ```php
 <?php
@@ -166,10 +188,10 @@ class googleAnalyticsController extends Controller
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTYxOTA2OTIsLTU1MzY2Mjg3MSwtMT
-M4ODg2MDU3NSwtMTc0ODMzNjAwNiwtMjk0MDM4MzMyLDc4MzM1
-ODI0NCw3ODMzNTgyNDQsLTI0OTUwNTY0OCwyMDE0MzI1NDg1LD
-EwOTg2NTE4NTEsLTc1MzEyMTkwNCwtNjI2OTUxNDE1LC0xNDg4
-MTI5MjM0LDUwODY0OTk3MSwtMjAxNDY4OTIyNCwtNTUzMzIzNT
-I4XX0=
+eyJoaXN0b3J5IjpbLTc3NDg3MDk3NywtMTg5NjE5MDY5MiwtNT
+UzNjYyODcxLC0xMzg4ODYwNTc1LC0xNzQ4MzM2MDA2LC0yOTQw
+MzgzMzIsNzgzMzU4MjQ0LDc4MzM1ODI0NCwtMjQ5NTA1NjQ4LD
+IwMTQzMjU0ODUsMTA5ODY1MTg1MSwtNzUzMTIxOTA0LC02MjY5
+NTE0MTUsLTE0ODgxMjkyMzQsNTA4NjQ5OTcxLC0yMDE0Njg5Mj
+I0LC01NTMzMjM1MjhdfQ==
 -->
