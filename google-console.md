@@ -51,11 +51,11 @@ vendor public လုပ်ပြီးရင် config/analytics.php file ထဲ
 Service Account (client_id) ကို google analytics မှာ permission ပေးဖို့ လိုအပ်ပါသေးတယ် 
 [Google Analytics account](create-googleAnalytics.md) ပြုလုပ်ပုံ
 ![enter image description here](images/15.PNG)
-```
+``` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyOTQ1MTM4LC0xMzE5MjAxNzkzLDM1OD
-AzNDAyNSwxMzI0ODgxNDIzLC0xMzAxODY3MDA4LC0xMTg5NDE5
-MDcwLC00Njk0NTQ0MTcsODE1NTA2MTY1LC0yMzY5ODMwMzQsLT
-E4OTA0MTY1OTYsLTQwOTc1OTMwNywxNjg1NjYyMzA3LDczMDk5
-ODExNl19
+eyJoaXN0b3J5IjpbLTE1MDQ1Mjg4OTQsODQyOTQ1MTM4LC0xMz
+E5MjAxNzkzLDM1ODAzNDAyNSwxMzI0ODgxNDIzLC0xMzAxODY3
+MDA4LC0xMTg5NDE5MDcwLC00Njk0NTQ0MTcsODE1NTA2MTY1LC
+0yMzY5ODMwMzQsLTE4OTA0MTY1OTYsLTQwOTc1OTMwNywxNjg1
+NjYyMzA3LDczMDk5ODExNl19
 -->
