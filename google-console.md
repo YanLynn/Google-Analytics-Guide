@@ -42,12 +42,14 @@ type ကတော့ json format ယူမှာ ဖြစ်လို့ JSON �
 အောက်ပါပုံအတိုင်း json data ရလာပါလိမ့်မယ်
 ```
 ![enter image description here](images/14.PNG)
-
+```
+vendor public လုပ်ပြီးရင် config/analytics.php file ဆောက်ပေးသွားပါလိမ့်မယ်
+```
 ![enter image description here](images/16.PNG)
 
 ![enter image description here](images/15.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTMyMzc0NywtMTMwMTg2NzAwOCwtMT
+eyJoaXN0b3J5IjpbMTMyNDg4MTQyMywtMTMwMTg2NzAwOCwtMT
 E4OTQxOTA3MCwtNDY5NDU0NDE3LDgxNTUwNjE2NSwtMjM2OTgz
 MDM0LC0xODkwNDE2NTk2LC00MDk3NTkzMDcsMTY4NTY2MjMwNy
 w3MzA5OTgxMTZdfQ==
