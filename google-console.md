@@ -16,6 +16,10 @@ Credentials ကိုသွားပါမယ်  <br>
 create credentials ထဲက service account ကိုနိုပ်ပါ
 ![enter image description here](images/9.PNG)
 
+service account တခုဆောက်ပါမယ် <br>
+service account name ကိုကြိုက်တာပေးလို့ရပါတယ်<br>
+ကိုယ်ပေးလိုက်တဲ့ name မှ service account ID (client_email) ရပါမယ်<br>
+create ကိုနိုပ်ပါ
 ![enter image description here](images/10.PNG)
 
 ![enter image description here](images/11.PNG)
@@ -28,6 +32,7 @@ create credentials ထဲက service account ကိုနိုပ်ပါ
 
 ![enter image description here](images/15.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjk4MzAzNCwtMTg5MDQxNjU5NiwtND
-A5NzU5MzA3LDE2ODU2NjIzMDcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbODE1NTA2MTY1LC0yMzY5ODMwMzQsLTE4OT
+A0MTY1OTYsLTQwOTc1OTMwNywxNjg1NjYyMzA3LDczMDk5ODEx
+Nl19
 -->
