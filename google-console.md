@@ -47,11 +47,13 @@ vendor public လုပ်ပြီးရင် config/analytics.php file ထဲ
 အောက်ပါ storage path အတိုင်း key file ကို ထည့်ပေးရပါမယ်
 ```
 ![enter image description here](images/16.PNG)
+```
 Service Account (client_id) ကို google analytics မှာ permission ပေးဖို့ လိုအပ်ပါသေးတယ် 
 [Google Analytics account](create-googleAnalytics.md) ပြုလုပ်ပုံ
 ![enter image description here](images/15.PNG)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1OTE4ODE4LC0xMzE5MjAxNzkzLDM1OD
+eyJoaXN0b3J5IjpbODQyOTQ1MTM4LC0xMzE5MjAxNzkzLDM1OD
 AzNDAyNSwxMzI0ODgxNDIzLC0xMzAxODY3MDA4LC0xMTg5NDE5
 MDcwLC00Njk0NTQ0MTcsODE1NTA2MTY1LC0yMzY5ODMwMzQsLT
 E4OTA0MTY1OTYsLTQwOTc1OTMwNywxNjg1NjYyMzA3LDczMDk5
