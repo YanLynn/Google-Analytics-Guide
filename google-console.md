@@ -21,7 +21,8 @@ service account name ကိုကြိုက်တာပေးလို့ရ�
 ကိုယ်ပေးလိုက်တဲ့ name မှ service account ID (client_email) ရပါမယ်<br>
 create ကိုနိုပ်ပါ
 ![enter image description here](images/10.PNG)
-
+ဒီအဆင့် Role သတ်မှတ်ပေးရပါမယ် ကျနော်တို့က Browser အတွက်သုံးပြုမှာ ဖြစ်တဲ့အတွက် Browser ကိုရွေးပါမယ် <br>
+continue နိုပ်ပါ
 ![enter image description here](images/11.PNG)
 
 ![enter image description here](images/12.PNG)
@@ -32,7 +33,7 @@ create ကိုနိုပ်ပါ
 
 ![enter image description here](images/15.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1NTA2MTY1LC0yMzY5ODMwMzQsLTE4OT
-A0MTY1OTYsLTQwOTc1OTMwNywxNjg1NjYyMzA3LDczMDk5ODEx
-Nl19
+eyJoaXN0b3J5IjpbLTQ2OTQ1NDQxNyw4MTU1MDYxNjUsLTIzNj
+k4MzAzNCwtMTg5MDQxNjU5NiwtNDA5NzU5MzA3LDE2ODU2NjIz
+MDcsNzMwOTk4MTE2XX0=
 -->
