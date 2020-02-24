@@ -1,5 +1,8 @@
 
-
+```
+Google Analytics Account တည်ဆောက်ခြင်း
+acc name ထည့်ပြီး Next နိုပ်ပါ
+```
 ![enter image description here](images/17.PNG)
 
 ![enter image description here](images/18.PNG)
@@ -17,6 +20,6 @@
 ![enter image description here](images/24.PNG)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MjAwODc0OCwxMDgwNzMxMjM5LDIwMz
-Y2MDg1NDksNjI1NTYwNDAxXX0=
+eyJoaXN0b3J5IjpbLTE0NDA5MjA0ODUsMTk5MjAwODc0OCwxMD
+gwNzMxMjM5LDIwMzY2MDg1NDksNjI1NTYwNDAxXX0=
 -->
