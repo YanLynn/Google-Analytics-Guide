@@ -9,7 +9,13 @@ acc name ထည့်ပြီး Next နိုပ်ပါ
 ပြီးရင် next နိုပ်ပါ
 ```
 ![enter image description here](images/18.PNG)
-
+```
+Property details မှာ website name ကြိုက်တာပေးပါ
+website url မှာ ကိုယ် tracking လုပ်မယ့် site address ထည့်ပါ
+industry category မရွေးလဲရပါတယ်
+Reporting Time Zone က တော့ healthcare-portal အတွက် မို့လို့ JAPAN ပဲ ရွေးထားပါတယ်
+ပြီးရင် Create နိုပ်ပါ
+```
 ![enter image description here](images/19.PNG)
 
 ![enter image description here](images/21.PNG)
@@ -23,6 +29,7 @@ acc name ထည့်ပြီး Next နိုပ်ပါ
 ![enter image description here](images/24.PNG)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzEwMDYyNDMsMTk5MjAwODc0OCwxMD
-gwNzMxMjM5LDIwMzY2MDg1NDksNjI1NTYwNDAxXX0=
+eyJoaXN0b3J5IjpbLTE3ODg3OTg0MjUsLTEyNzEwMDYyNDMsMT
+k5MjAwODc0OCwxMDgwNzMxMjM5LDIwMzY2MDg1NDksNjI1NTYw
+NDAxXX0=
 -->
