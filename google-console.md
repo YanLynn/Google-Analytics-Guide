@@ -43,10 +43,12 @@ type ကတော့ json format ယူမှာ ဖြစ်လို့ JSON �
 ```
 ![enter image description here](images/14.PNG)
 
+![enter image description here](images/16.PNG)
+
 ![enter image description here](images/15.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0MTMzNjU3LC0xMzAxODY3MDA4LC0xMT
-g5NDE5MDcwLC00Njk0NTQ0MTcsODE1NTA2MTY1LC0yMzY5ODMw
-MzQsLTE4OTA0MTY1OTYsLTQwOTc1OTMwNywxNjg1NjYyMzA3LD
-czMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTM3OTMyMzc0NywtMTMwMTg2NzAwOCwtMT
+E4OTQxOTA3MCwtNDY5NDU0NDE3LDgxNTUwNjE2NSwtMjM2OTgz
+MDM0LC0xODkwNDE2NTk2LC00MDk3NTkzMDcsMTY4NTY2MjMwNy
+w3MzA5OTgxMTZdfQ==
 -->
