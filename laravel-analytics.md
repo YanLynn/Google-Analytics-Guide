@@ -57,7 +57,7 @@ return [
 use Analytics;
 laravel ရဲ့ controller မှာ use Analytics; ပြန်ခေါ်သုံးရပါမယ် 
 use Spatie\Analytics\Period;
-
+package မှာ dateTime အတွက် ပါပြီးသားဖြစ်လို့  use Spatie\Analytics\Period;  period ကိုခေါ်သုံးရုံပါပဲ
 //retrieve visitors and pageview data for the current day and the last seven days
 $analyticsData = Analytics::fetchVisitorsAndPageViews(Period::days(7));
 //retrieve visitors and pageviews since the 6 months ago
@@ -191,10 +191,10 @@ class googleAnalyticsController extends Controller
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTA0NDg5MCwxMTkwMTI1MzgxLDMwOD
-QxODI5LC0xODk2MTkwNjkyLC01NTM2NjI4NzEsLTEzODg4NjA1
-NzUsLTE3NDgzMzYwMDYsLTI5NDAzODMzMiw3ODMzNTgyNDQsNz
-gzMzU4MjQ0LC0yNDk1MDU2NDgsMjAxNDMyNTQ4NSwxMDk4NjUx
-ODUxLC03NTMxMjE5MDQsLTYyNjk1MTQxNSwtMTQ4ODEyOTIzNC
-w1MDg2NDk5NzEsLTIwMTQ2ODkyMjQsLTU1MzMyMzUyOF19
+eyJoaXN0b3J5IjpbNjU1MTcyNzQsMTE5MDEyNTM4MSwzMDg0MT
+gyOSwtMTg5NjE5MDY5MiwtNTUzNjYyODcxLC0xMzg4ODYwNTc1
+LC0xNzQ4MzM2MDA2LC0yOTQwMzgzMzIsNzgzMzU4MjQ0LDc4Mz
+M1ODI0NCwtMjQ5NTA1NjQ4LDIwMTQzMjU0ODUsMTA5ODY1MTg1
+MSwtNzUzMTIxOTA0LC02MjY5NTE0MTUsLTE0ODgxMjkyMzQsNT
+A4NjQ5OTcxLC0yMDE0Njg5MjI0LC01NTMzMjM1MjhdfQ==
 -->
