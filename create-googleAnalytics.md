@@ -17,7 +17,12 @@ Reporting Time Zone က တော့ healthcare-portal အတွက် မို
 ပြီးရင် Create နိုပ်ပါ
 ```
 ![enter image description here](images/19.PNG)
-
+```
+Create နိုပ်ပြီးတာနဲ့ ကျနော်တို့ analytics acc တခုရပါပြီ
+အ့ဒီမှာ Tracking ID ( UA-XXXXXX-X) နဲ့ Global Site tag ရပါမယ်
+Tracking ID က vue analytics package install လုပ်တဲ့ အခါ app.js မှာ ထည့်ပေးရမှာပါ
+Global site tag က laravel ရဲ့ app.blade.php မှာ <header> tag အတွင်း ထည့်ပေးရပါမယ်
+```
 ![enter image description here](images/21.PNG)
 
 ![enter image description here](images/22.PNG)
@@ -29,7 +34,7 @@ Reporting Time Zone က တော့ healthcare-portal အတွက် မို
 ![enter image description here](images/24.PNG)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODg3OTg0MjUsLTEyNzEwMDYyNDMsMT
-k5MjAwODc0OCwxMDgwNzMxMjM5LDIwMzY2MDg1NDksNjI1NTYw
-NDAxXX0=
+eyJoaXN0b3J5IjpbLTExNTQwNDAyMDksLTE3ODg3OTg0MjUsLT
+EyNzEwMDYyNDMsMTk5MjAwODc0OCwxMDgwNzMxMjM5LDIwMzY2
+MDg1NDksNjI1NTYwNDAxXX0=
 -->
