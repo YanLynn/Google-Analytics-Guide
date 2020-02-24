@@ -3,7 +3,7 @@
   
 Project တခု ရေးပြီး Create နိုပ်ပါ :grin:
 ![enter image description here](images/6.PNG)
-
+Create နိုပ်ပြီးရင် ကျနော်တို့ Project ရဲ့ Dashboard ကို ရောက်သွားပါပြီ
 ![enter image description here](images/7.PNG)
 
 ![enter image description here](images/8.PNG)
@@ -22,6 +22,6 @@ Project တခု ရေးပြီး Create နိုပ်ပါ :grin:
 
 ![enter image description here](images/15.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyNDEyNTk5LC0xODkwNDE2NTk2LC00MD
-k3NTkzMDcsMTY4NTY2MjMwNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTQ5Nzc4MDc3MCwtMTg5MDQxNjU5NiwtND
+A5NzU5MzA3LDE2ODU2NjIzMDcsNzMwOTk4MTE2XX0=
 -->
