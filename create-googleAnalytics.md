@@ -25,6 +25,8 @@ Global site tag က laravel ရဲ့ app.blade.php မှာ <header> tag အ�
 ```
 ![enter image description here](images/21.PNG)
 
+![enter image description here](images/26.PNG)
+
 ![enter image description here](images/22.PNG)
 
 ![enter image description here](images/23.PNG)
@@ -34,7 +36,7 @@ Global site tag က laravel ရဲ့ app.blade.php မှာ <header> tag အ�
 ![enter image description here](images/24.PNG)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQwNDAyMDksLTE3ODg3OTg0MjUsLT
-EyNzEwMDYyNDMsMTk5MjAwODc0OCwxMDgwNzMxMjM5LDIwMzY2
-MDg1NDksNjI1NTYwNDAxXX0=
+eyJoaXN0b3J5IjpbMTcxOTIxMTA5MCwtMTE1NDA0MDIwOSwtMT
+c4ODc5ODQyNSwtMTI3MTAwNjI0MywxOTkyMDA4NzQ4LDEwODA3
+MzEyMzksMjAzNjYwODU0OSw2MjU1NjA0MDFdfQ==
 -->
