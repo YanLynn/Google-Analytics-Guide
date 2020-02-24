@@ -2,7 +2,6 @@
   login with gmail account
   
 Project တခု ရေးပြီး Create နိုပ်ပါ :grin:
-
 ![enter image description here](images/6.PNG)
 
 ![enter image description here](images/7.PNG)
@@ -23,6 +22,6 @@ Project တခု ရေးပြီး Create နိုပ်ပါ :grin:
 
 ![enter image description here](images/15.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjIzNTU0NywtMTg5MDQxNjU5NiwtND
-A5NzU5MzA3LDE2ODU2NjIzMDcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNjcyNDEyNTk5LC0xODkwNDE2NTk2LC00MD
+k3NTkzMDcsMTY4NTY2MjMwNyw3MzA5OTgxMTZdfQ==
 -->
