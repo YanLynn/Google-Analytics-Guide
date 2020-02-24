@@ -25,6 +25,8 @@ create ကိုနိုပ်ပါ
 continue နိုပ်ပါ
 ![enter image description here](images/11.PNG)
 
+key ယူဖို့အတွက် Create Key ကိုနိုပ်ပါ <br>
+type ကတော့ json format ယူမှာ ဖြစ်လို့ JSON ကို ရွေးပြီး Create နိုပ် down ဖို့အတွက် ကျလာပါလိမ့်မယ်
 ![enter image description here](images/12.PNG)
 
 ![enter image description here](images/13.PNG)
@@ -33,7 +35,7 @@ continue နိုပ်ပါ
 
 ![enter image description here](images/15.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTQ1NDQxNyw4MTU1MDYxNjUsLTIzNj
-k4MzAzNCwtMTg5MDQxNjU5NiwtNDA5NzU5MzA3LDE2ODU2NjIz
-MDcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTExODk0MTkwNzAsLTQ2OTQ1NDQxNyw4MT
+U1MDYxNjUsLTIzNjk4MzAzNCwtMTg5MDQxNjU5NiwtNDA5NzU5
+MzA3LDE2ODU2NjIzMDcsNzMwOTk4MTE2XX0=
 -->
