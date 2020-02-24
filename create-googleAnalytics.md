@@ -24,7 +24,10 @@ Tracking ID က vue analytics package install လုပ်တဲ့ အခါ ap
 Global site tag က laravel ရဲ့ app.blade.php မှာ <header> tag အတွင်း ထည့်ပေးရပါမယ်
 ```
 ![enter image description here](images/21.PNG)
-
+```
+View Settings ထဲ က View ID ကို laravel ရဲ့ .env file မှာ
+***ANALYTICS_VIEW_ID=212007534*** ထည့်ပေးရပါမယ်
+```
 ![enter image description here](images/26.PNG)
 
 ![enter image description here](images/22.PNG)
@@ -36,7 +39,8 @@ Global site tag က laravel ရဲ့ app.blade.php မှာ <header> tag အ�
 ![enter image description here](images/24.PNG)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTIxMTA5MCwtMTE1NDA0MDIwOSwtMT
-c4ODc5ODQyNSwtMTI3MTAwNjI0MywxOTkyMDA4NzQ4LDEwODA3
-MzEyMzksMjAzNjYwODU0OSw2MjU1NjA0MDFdfQ==
+eyJoaXN0b3J5IjpbNzk2NDkxMjc3LDE3MTkyMTEwOTAsLTExNT
+QwNDAyMDksLTE3ODg3OTg0MjUsLTEyNzEwMDYyNDMsMTk5MjAw
+ODc0OCwxMDgwNzMxMjM5LDIwMzY2MDg1NDksNjI1NTYwNDAxXX
+0=
 -->
