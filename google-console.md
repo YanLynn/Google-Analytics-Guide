@@ -11,6 +11,7 @@ Create နိုပ်ပြီးရင် ကျနော်တို့ Proje
 Enable apis and services ကို နိုပ်ပါပြီးရင် Search box မှာ google analytics api လို့ရိုက်ရှာပြီး enable နိုပ်ပါ
 ![enter image description here](images/8.PNG)
 
+
 ![enter image description here](images/9.PNG)
 
 ![enter image description here](images/10.PNG)
@@ -25,6 +26,6 @@ Enable apis and services ကို နိုပ်ပါပြီးရင် Se
 
 ![enter image description here](images/15.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDE0NDQ1NywtMTg5MDQxNjU5NiwtND
-A5NzU5MzA3LDE2ODU2NjIzMDcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEyNDMyMzMyMDcsLTE4OTA0MTY1OTYsLT
+QwOTc1OTMwNywxNjg1NjYyMzA3LDczMDk5ODExNl19
 -->
