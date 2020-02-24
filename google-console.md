@@ -12,7 +12,8 @@ Enable apis and services ကို နိုပ်ပါပြီးရင် Se
 ![enter image description here](images/8.PNG)
 
 google analytics api  ကို enable လုပ်ပြီးရင် key ရယူဖို့အတွက် 
-Credentials ကိုသွားပါမယ်  create credentials ထဲက service account ကိုနိုပ်ပါ
+Credentials ကိုသွားပါမယ်  <br>
+create credentials ထဲက service account ကိုနိုပ်ပါ
 ![enter image description here](images/9.PNG)
 
 ![enter image description here](images/10.PNG)
@@ -27,6 +28,6 @@ Credentials ကိုသွားပါမယ်  create credentials ထဲက s
 
 ![enter image description here](images/15.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUyNDk3MTYyLC0xODkwNDE2NTk2LC00MD
-k3NTkzMDcsMTY4NTY2MjMwNyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIzNjk4MzAzNCwtMTg5MDQxNjU5NiwtND
+A5NzU5MzA3LDE2ODU2NjIzMDcsNzMwOTk4MTE2XX0=
 -->
