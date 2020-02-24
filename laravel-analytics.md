@@ -96,7 +96,9 @@ $end = Carbon::createFromFormat('Y-m-d', substr($request->endDate, 0, 10));
             'ga:users,ga:sessions,ga:uniqueEvents,ga:pageviewsPerSession,ga:avgSessionDuration,ga:totalEvents',
             ['dimensions' => 'ga:eventCategory,ga:eventAction,ga:eventLabel,ga:deviceCategory']
         );
-# query တွက်ချက်ပြီး return ထွက်လာတဲ့ data ကများပါတယ် ကျနော်တို့လိုချင်တဲ့ data # ကreturn ထွက်လာတဲ့ rows ဆိုတဲ့ array ထဲမှာပဲ ရှိတဲ့အတွက် သူ့ကိုပဲယူချင်တဲ့အတွက်  # အောက်ပါအတိုင်းထုတ်ယူထားတာဖြစ်ပါတယ်
+# query တွက်ချက်ပြီး return ထွက်လာတဲ့ data ကများပါတယ် ကျနော်တို့လိုချင်တဲ့
+# data ကreturn ထွက်လာတဲ့ rows ဆိုတဲ့ array ထဲမှာပဲ ရှိတဲ့အတွက် သူ့ကိုပဲ ယူချင်တဲ့အတွက် 
+# အောက်ပါအတိုင်းထုတ်ယူထားတာဖြစ်ပါတယ်
          $eventReport = collect($response['rows'] ?? [])->map(function (array $dateRow) {
             return [
                 'eventCategory'=> $dateRow[0],
@@ -193,7 +195,7 @@ class googleAnalyticsController extends Controller
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDYxMDY3MywxNTY4ODgzMTY3LC0xND
+eyJoaXN0b3J5IjpbLTE2OTg0ODc1NSwxNTY4ODgzMTY3LC0xND
 I5NzU5MTM4LC01NDA1MzA2NjUsNjU1MTcyNzQsMTE5MDEyNTM4
 MSwzMDg0MTgyOSwtMTg5NjE5MDY5MiwtNTUzNjYyODcxLC0xMz
 g4ODYwNTc1LC0xNzQ4MzM2MDA2LC0yOTQwMzgzMzIsNzgzMzU4
