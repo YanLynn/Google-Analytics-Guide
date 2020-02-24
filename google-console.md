@@ -42,13 +42,22 @@ type ကတော့ json format ယူမှာ ဖြစ်လို့ JSON �
 အောက်ပါပုံအတိုင်း json data ရလာပါလိမ့်မယ်
 ```
 ![enter image description here](images/14.PNG)
-
+```
+vendor public လုပ်ပြီးရင် config/analytics.php file ထဲမှာ
+အောက်ပါ storage path အတိုင်း key file ကို ထည့်ပေးရပါမယ်
+```
 ![enter image description here](images/16.PNG)
+```
+Service Account (client_id) ကို google analytics မှာ permission ပေးဖို့ လိုအပ်ပါသေးတယ် 
+```
+[Google Analytics account](create-googleAnalytics.md) ပြုလုပ်ပုံ
 
 ![enter image description here](images/15.PNG)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTMyMzc0NywtMTMwMTg2NzAwOCwtMT
-E4OTQxOTA3MCwtNDY5NDU0NDE3LDgxNTUwNjE2NSwtMjM2OTgz
-MDM0LC0xODkwNDE2NTk2LC00MDk3NTkzMDcsMTY4NTY2MjMwNy
-w3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNDM2OTYyMDE2LC0xNTA0NTI4ODk0LDg0Mj
+k0NTEzOCwtMTMxOTIwMTc5MywzNTgwMzQwMjUsMTMyNDg4MTQy
+MywtMTMwMTg2NzAwOCwtMTE4OTQxOTA3MCwtNDY5NDU0NDE3LD
+gxNTUwNjE2NSwtMjM2OTgzMDM0LC0xODkwNDE2NTk2LC00MDk3
+NTkzMDcsMTY4NTY2MjMwNyw3MzA5OTgxMTZdfQ==
 -->
