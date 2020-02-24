@@ -5,7 +5,7 @@ Project  name တခု ရေးပြီး Create နိုပ်ပါ
 ```
 ![enter image description here](images/6.PNG)
 ```
-Create နိုပ်ပြီးရင် ကျနော်တို့ Project ရဲ့ Dashboard ကို ရောက်သွားပါပြီ <br>
+Create နိုပ်ပြီးရင် ကျနော်တို့ Project ရဲ့ Dashboard ကို ရောက်သွားပါပြီ 
 အ့ဒီမှာ google analytics ရဲ့ api ကို enable လုပ်ဖို့ပေးရမယ်
 ```
 ![enter image description here](images/7.PNG)
@@ -15,14 +15,14 @@ Enable apis and services ကို နိုပ်ပါပြီးရင် Se
 ![enter image description here](images/8.PNG)
 ```
 google analytics api  ကို enable လုပ်ပြီးရင် key ရယူဖို့အတွက် 
-Credentials ကိုသွားပါမယ်  <br>
+Credentials ကိုသွားပါမယ်  
 create credentials ထဲက service account ကိုနိုပ်ပါ
 ```
 ![enter image description here](images/9.PNG)
 ```
-service account တခုဆောက်ပါမယ် <br>
-service account name ကိုကြိုက်တာပေးလို့ရပါတယ်<br>
-ကိုယ်ပေးလိုက်တဲ့ name မှ service account ID (client_email) ရပါမယ်<br>
+service account တခုဆောက်ပါမယ် 
+service account name ကိုကြိုက်တာပေးလို့ရပါတယ်
+ကိုယ်ပေးလိုက်တဲ့ name မှ service account ID (client_email) ရပါမယ်
 create ကိုနိုပ်ပါ
 ```
 ![enter image description here](images/10.PNG)
@@ -32,7 +32,7 @@ continue နိုပ်ပါ
 ```
 ![enter image description here](images/11.PNG)
 ```
-key ယူဖို့အတွက် Create Key ကိုနိုပ်ပါ <br>
+key ယူဖို့အတွက် Create Key ကိုနိုပ်ပါ 
 type ကတော့ json format ယူမှာ ဖြစ်လို့ JSON ကို ရွေးပြီး Create နိုပ် down ဖို့အတွက် ကျလာပါလိမ့်မယ်
 ```
 ![enter image description here](images/12.PNG)
@@ -45,8 +45,8 @@ type ကတော့ json format ယူမှာ ဖြစ်လို့ JSON �
 
 ![enter image description here](images/15.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzI1NTI5OSwtMTMwMTg2NzAwOCwtMT
-E4OTQxOTA3MCwtNDY5NDU0NDE3LDgxNTUwNjE2NSwtMjM2OTgz
-MDM0LC0xODkwNDE2NTk2LC00MDk3NTkzMDcsMTY4NTY2MjMwNy
-w3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNDQ0MTMzNjU3LC0xMzAxODY3MDA4LC0xMT
+g5NDE5MDcwLC00Njk0NTQ0MTcsODE1NTA2MTY1LC0yMzY5ODMw
+MzQsLTE4OTA0MTY1OTYsLTQwOTc1OTMwNywxNjg1NjYyMzA3LD
+czMDk5ODExNl19
 -->
