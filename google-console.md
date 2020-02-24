@@ -1,7 +1,7 @@
  > **[Google API’s site](https://console.developers.google.com/apis/)**
   login with gmail account
   
-Project တခု ရေးပြီး Create နိုပ်ပါ :grin:
+Project  name တခု ရေးပြီး Create နိုပ်ပါ :grin:
 ![enter image description here](images/6.PNG)
 
 Create နိုပ်ပြီးရင် ကျနော်တို့ Project ရဲ့ Dashboard ကို ရောက်သွားပါပြီ <br>
@@ -36,8 +36,8 @@ type ကတော့ json format ယူမှာ ဖြစ်လို့ JSON �
 
 ![enter image description here](images/15.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDE4NjcwMDgsLTExODk0MTkwNzAsLT
-Q2OTQ1NDQxNyw4MTU1MDYxNjUsLTIzNjk4MzAzNCwtMTg5MDQx
-NjU5NiwtNDA5NzU5MzA3LDE2ODU2NjIzMDcsNzMwOTk4MTE2XX
-0=
+eyJoaXN0b3J5IjpbLTE2MjU2MTUyODUsLTEzMDE4NjcwMDgsLT
+ExODk0MTkwNzAsLTQ2OTQ1NDQxNyw4MTU1MDYxNjUsLTIzNjk4
+MzAzNCwtMTg5MDQxNjU5NiwtNDA5NzU5MzA3LDE2ODU2NjIzMD
+csNzMwOTk4MTE2XX0=
 -->
