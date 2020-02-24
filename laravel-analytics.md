@@ -80,7 +80,7 @@ $startDate = Carbon::now()->subYear();
 $endDate = Carbon::now();
 Period::create($startDate, $endDate);
 ```
-
+input data (dateTime) နဲ့ user ရဲ့ request အပေါ်မှုတည်ပြီး analytics query တွက်ချက်တဲ့အခါ dateTime format မတူတဲ့အတွက် date_create function ကို သုံးပေးရပါမယ်
 ```php
 $startDate = date_create($request->startDate);
 $endDate = date_create($request->endDate);
@@ -193,11 +193,11 @@ class googleAnalyticsController extends Controller
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjk3NTkxMzgsLTU0MDUzMDY2NSw2NT
-UxNzI3NCwxMTkwMTI1MzgxLDMwODQxODI5LC0xODk2MTkwNjky
-LC01NTM2NjI4NzEsLTEzODg4NjA1NzUsLTE3NDgzMzYwMDYsLT
-I5NDAzODMzMiw3ODMzNTgyNDQsNzgzMzU4MjQ0LC0yNDk1MDU2
-NDgsMjAxNDMyNTQ4NSwxMDk4NjUxODUxLC03NTMxMjE5MDQsLT
-YyNjk1MTQxNSwtMTQ4ODEyOTIzNCw1MDg2NDk5NzEsLTIwMTQ2
-ODkyMjRdfQ==
+eyJoaXN0b3J5IjpbMTU2ODg4MzE2NywtMTQyOTc1OTEzOCwtNT
+QwNTMwNjY1LDY1NTE3Mjc0LDExOTAxMjUzODEsMzA4NDE4Mjks
+LTE4OTYxOTA2OTIsLTU1MzY2Mjg3MSwtMTM4ODg2MDU3NSwtMT
+c0ODMzNjAwNiwtMjk0MDM4MzMyLDc4MzM1ODI0NCw3ODMzNTgy
+NDQsLTI0OTUwNTY0OCwyMDE0MzI1NDg1LDEwOTg2NTE4NTEsLT
+c1MzEyMTkwNCwtNjI2OTUxNDE1LC0xNDg4MTI5MjM0LDUwODY0
+OTk3MV19
 -->
