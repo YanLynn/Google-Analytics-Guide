@@ -91,7 +91,7 @@ $start = Carbon::createFromFormat('Y-m-d', substr($request->startDate, 0, 10));
 $end = Carbon::createFromFormat('Y-m-d', substr($request->endDate, 0, 10));
 ```
 * google analytics ရဲ့ Query list ပါ [Dimensions & Metrics Explorer](https://ga-dev-tools.appspot.com/dimensions-metrics-explorer/) <br>
-* google analytics ရဲ့ [Query Explorer](https://ga-dev-tools.appspot.com/query-explorer/) (ဒီနေ့ရာမှာ google analytics account ဝင်ထားမှရမှာပါ)
+* google analytics ရဲ့ [Query Explorer](https://ga-dev-tools.appspot.com/query-explorer/) (ဒီနေရာမှာ google analytics account ဝင်ထားမှရမှာပါ)
 ```php
  $response = Analytics::performQuery(
             Period::create($startDate, $endDate),
@@ -197,11 +197,11 @@ class googleAnalyticsController extends Controller
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjAwMjM4NjYsLTE2OTg0ODc1NSwxNT
-Y4ODgzMTY3LC0xNDI5NzU5MTM4LC01NDA1MzA2NjUsNjU1MTcy
-NzQsMTE5MDEyNTM4MSwzMDg0MTgyOSwtMTg5NjE5MDY5MiwtNT
-UzNjYyODcxLC0xMzg4ODYwNTc1LC0xNzQ4MzM2MDA2LC0yOTQw
-MzgzMzIsNzgzMzU4MjQ0LDc4MzM1ODI0NCwtMjQ5NTA1NjQ4LD
-IwMTQzMjU0ODUsMTA5ODY1MTg1MSwtNzUzMTIxOTA0LC02MjY5
-NTE0MTVdfQ==
+eyJoaXN0b3J5IjpbMTcwMDEwNDE0MSwtMTY5ODQ4NzU1LDE1Nj
+g4ODMxNjcsLTE0Mjk3NTkxMzgsLTU0MDUzMDY2NSw2NTUxNzI3
+NCwxMTkwMTI1MzgxLDMwODQxODI5LC0xODk2MTkwNjkyLC01NT
+M2NjI4NzEsLTEzODg4NjA1NzUsLTE3NDgzMzYwMDYsLTI5NDAz
+ODMzMiw3ODMzNTgyNDQsNzgzMzU4MjQ0LC0yNDk1MDU2NDgsMj
+AxNDMyNTQ4NSwxMDk4NjUxODUxLC03NTMxMjE5MDQsLTYyNjk1
+MTQxNV19
 -->
