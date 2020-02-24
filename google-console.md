@@ -31,11 +31,13 @@ type ကတော့ json format ယူမှာ ဖြစ်လို့ JSON �
 
 ![enter image description here](images/13.PNG)
 
+အောက်ပါပုံအတိုင်း json data ရလာပါလိမ့်မယ်
 ![enter image description here](images/14.PNG)
 
 ![enter image description here](images/15.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODk0MTkwNzAsLTQ2OTQ1NDQxNyw4MT
-U1MDYxNjUsLTIzNjk4MzAzNCwtMTg5MDQxNjU5NiwtNDA5NzU5
-MzA3LDE2ODU2NjIzMDcsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEzMDE4NjcwMDgsLTExODk0MTkwNzAsLT
+Q2OTQ1NDQxNyw4MTU1MDYxNjUsLTIzNjk4MzAzNCwtMTg5MDQx
+NjU5NiwtNDA5NzU5MzA3LDE2ODU2NjIzMDcsNzMwOTk4MTE2XX
+0=
 -->
