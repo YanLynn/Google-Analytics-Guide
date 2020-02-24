@@ -90,6 +90,8 @@ $endDate = date_create($request->endDate);
 $start = Carbon::createFromFormat('Y-m-d', substr($request->startDate, 0, 10));
 $end = Carbon::createFromFormat('Y-m-d', substr($request->endDate, 0, 10));
 ```
+google analytics ရဲ့ Query list ပါ [Dimensions & Metrics Explorer](https://ga-dev-tools.appspot.com/dimensions-metrics-explorer/) <br>
+
 ```php
  $response = Analytics::performQuery(
             Period::create($startDate, $endDate),
@@ -195,11 +197,11 @@ class googleAnalyticsController extends Controller
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTg0ODc1NSwxNTY4ODgzMTY3LC0xND
-I5NzU5MTM4LC01NDA1MzA2NjUsNjU1MTcyNzQsMTE5MDEyNTM4
-MSwzMDg0MTgyOSwtMTg5NjE5MDY5MiwtNTUzNjYyODcxLC0xMz
-g4ODYwNTc1LC0xNzQ4MzM2MDA2LC0yOTQwMzgzMzIsNzgzMzU4
-MjQ0LDc4MzM1ODI0NCwtMjQ5NTA1NjQ4LDIwMTQzMjU0ODUsMT
-A5ODY1MTg1MSwtNzUzMTIxOTA0LC02MjY5NTE0MTUsLTE0ODgx
-MjkyMzRdfQ==
+eyJoaXN0b3J5IjpbLTE2MjAwNTA4MzYsLTE2OTg0ODc1NSwxNT
+Y4ODgzMTY3LC0xNDI5NzU5MTM4LC01NDA1MzA2NjUsNjU1MTcy
+NzQsMTE5MDEyNTM4MSwzMDg0MTgyOSwtMTg5NjE5MDY5MiwtNT
+UzNjYyODcxLC0xMzg4ODYwNTc1LC0xNzQ4MzM2MDA2LC0yOTQw
+MzgzMzIsNzgzMzU4MjQ0LDc4MzM1ODI0NCwtMjQ5NTA1NjQ4LD
+IwMTQzMjU0ODUsMTA5ODY1MTg1MSwtNzUzMTIxOTA0LC02MjY5
+NTE0MTVdfQ==
 -->
