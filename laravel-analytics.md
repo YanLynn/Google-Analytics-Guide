@@ -55,7 +55,7 @@ return [
 =======================
 ```php
 use Analytics;
-
+ရန်လင်းအောင်
 use Spatie\Analytics\Period;
 
 //retrieve visitors and pageview data for the current day and the last seven days
@@ -191,11 +191,11 @@ class googleAnalyticsController extends Controller
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MDUzMDY2NSw2NTUxNzI3NCwxMTkwMT
-I1MzgxLDMwODQxODI5LC0xODk2MTkwNjkyLC01NTM2NjI4NzEs
-LTEzODg4NjA1NzUsLTE3NDgzMzYwMDYsLTI5NDAzODMzMiw3OD
-MzNTgyNDQsNzgzMzU4MjQ0LC0yNDk1MDU2NDgsMjAxNDMyNTQ4
-NSwxMDk4NjUxODUxLC03NTMxMjE5MDQsLTYyNjk1MTQxNSwtMT
-Q4ODEyOTIzNCw1MDg2NDk5NzEsLTIwMTQ2ODkyMjQsLTU1MzMy
-MzUyOF19
+eyJoaXN0b3J5IjpbMTkyMzA2NzcxNCwtNTQwNTMwNjY1LDY1NT
+E3Mjc0LDExOTAxMjUzODEsMzA4NDE4MjksLTE4OTYxOTA2OTIs
+LTU1MzY2Mjg3MSwtMTM4ODg2MDU3NSwtMTc0ODMzNjAwNiwtMj
+k0MDM4MzMyLDc4MzM1ODI0NCw3ODMzNTgyNDQsLTI0OTUwNTY0
+OCwyMDE0MzI1NDg1LDEwOTg2NTE4NTEsLTc1MzEyMTkwNCwtNj
+I2OTUxNDE1LC0xNDg4MTI5MjM0LDUwODY0OTk3MSwtMjAxNDY4
+OTIyNF19
 -->
