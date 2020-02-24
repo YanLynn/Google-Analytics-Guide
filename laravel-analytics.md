@@ -55,6 +55,7 @@ return [
 =======================
 ```php
 use Analytics;
+laravel ရဲ့ controller မှာ use Analytics; ပြန်ခေါ်သုံးရပါမယ် 
 use Spatie\Analytics\Period;
 
 //retrieve visitors and pageview data for the current day and the last seven days
@@ -190,10 +191,10 @@ class googleAnalyticsController extends Controller
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDEyNTM4MSwzMDg0MTgyOSwtMTg5Nj
-E5MDY5MiwtNTUzNjYyODcxLC0xMzg4ODYwNTc1LC0xNzQ4MzM2
-MDA2LC0yOTQwMzgzMzIsNzgzMzU4MjQ0LDc4MzM1ODI0NCwtMj
-Q5NTA1NjQ4LDIwMTQzMjU0ODUsMTA5ODY1MTg1MSwtNzUzMTIx
-OTA0LC02MjY5NTE0MTUsLTE0ODgxMjkyMzQsNTA4NjQ5OTcxLC
-0yMDE0Njg5MjI0LC01NTMzMjM1MjhdfQ==
+eyJoaXN0b3J5IjpbLTgwOTA0NDg5MCwxMTkwMTI1MzgxLDMwOD
+QxODI5LC0xODk2MTkwNjkyLC01NTM2NjI4NzEsLTEzODg4NjA1
+NzUsLTE3NDgzMzYwMDYsLTI5NDAzODMzMiw3ODMzNTgyNDQsNz
+gzMzU4MjQ0LC0yNDk1MDU2NDgsMjAxNDMyNTQ4NSwxMDk4NjUx
+ODUxLC03NTMxMjE5MDQsLTYyNjk1MTQxNSwtMTQ4ODEyOTIzNC
+w1MDg2NDk5NzEsLTIwMTQ2ODkyMjQsLTU1MzMyMzUyOF19
 -->
