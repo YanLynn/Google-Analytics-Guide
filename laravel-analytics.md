@@ -119,89 +119,143 @@ $end = Carbon::createFromFormat('Y-m-d', substr($request->endDate, 0, 10));
 ```
 >googleAnalyticsController.php (Healthcare-portal)
 ```php
+
 <?php
 
-namespace App\Http\Controllers;
+  
+
+namespace  App\Http\Controllers;
+
+  
 
 use Illuminate\Http\Request;
-use Analytics;
+
+use  Analytics;
+
 use Spatie\Analytics\Period;
+
 use Carbon\Carbon;
-class googleAnalyticsController extends Controller
+
+class  googleAnalyticsController  extends  Controller
+
 {
-    public function analytics(Request $request)
-    {
 
-        $startDate = date_create($request->startDate);
-        $endDate = date_create($request->endDate);
+public  function  analytics(Request  $request)
 
-        $start = Carbon::createFromFormat('Y-m-d', substr($request->startDate, 0, 10));
-        $end = Carbon::createFromFormat('Y-m-d', substr($request->endDate, 0, 10));
+{
 
-        $dates = [];
-        while ($start->lte($end)) {
+  
 
-            $dates[] = $start->copy()->format('Y-m-d');
-            // $dates[] = date('F' , strtotime($date));
-            // $start->addMonth();
-            $start->addDay();
-        }
+$startDate = date_create($request->startDate);
 
-        $browser = Analytics::fetchTopBrowsers($date);
-        $mostVisitedPages = Analytics::fetchMostVisitedPages($date);
-        $visitors = Analytics::fetchVisitorsAndPageViews($date);
-        $total_visitors = Analytics::fetchTotalVisitorsAndPageViews($date);
-        $top_referrers = Analytics::fetchTopReferrers($date);
-        $analyticsData = Analytics::performQuery(
-            Period::years(1),
-               'ga:sessions',
-               [
-                   'metrics' => 'ga:sessions, ga:pageviews',
-                   'dimensions' => 'ga:yearMonth,ga:country'
-               ]
-         );
+$endDate = date_create($request->endDate);
 
-         $response = Analytics::performQuery(
-            Period::create($startDate, $endDate),
-            'ga:users,ga:sessions,ga:uniqueEvents,ga:pageviewsPerSession,ga:avgSessionDuration,ga:totalEvents',
-            ['dimensions' => 'ga:eventCategory,ga:eventAction,ga:eventLabel,ga:deviceCategory']
-        );
+  
 
-         $eventReport = collect($response['rows'] ?? [])->map(function (array $dateRow) {
-            return [
-                'eventCategory'=> $dateRow[0],
-                'eventAction'=> $dateRow[1],
-                'eventLabel'=>$dateRow[2],
-                'deviceCategory'=>$dateRow[3],
-                'users' =>  $dateRow[4],
-                'sessions' =>  $dateRow[5],
-                'uniqueEvents' =>$dateRow[6],
-                'pageviewsPerSession' => $dateRow[7],
-                'avgSessionDuration' =>  $dateRow[8],
-                'totalEvents' =>  $dateRow[9],
+$start = Carbon::createFromFormat('Y-m-d', substr($request->startDate, 0, 10));
 
-            ];
-        });
+$end = Carbon::createFromFormat('Y-m-d', substr($request->endDate, 0, 10));
 
-        return response()->json([    'eventReport'=>$eventReport,
-                                     'browser'=>$browser,
-                                     'mostVisitedPages'=>$mostVisitedPages,
-                                     'visitors'=>$visitors,
-                                     'total_visitors'=>$total_visitors,
-                                     'top_referrers'=>$top_referrers,
-                                     'analyticsData'=>$analyticsData,
-                                     
-                                     ]);
-    }
+$date = Period::create($start, $end);
+
+$browser = Analytics::fetchTopBrowsers($date);
+
+$mostVisitedPages = Analytics::fetchMostVisitedPages($date);
+
+$visitors = Analytics::fetchVisitorsAndPageViews($date);
+
+$total_visitors = Analytics::fetchTotalVisitorsAndPageViews($date);
+
+$top_referrers = Analytics::fetchTopReferrers($date);
+
+$analyticsData = Analytics::performQuery(
+
+Period::years(1),
+
+'ga:sessions',
+
+[
+
+'metrics' => 'ga:sessions, ga:pageviews',
+
+'dimensions' => 'ga:yearMonth,ga:country'
+
+]
+
+);
+
+  
+
+$response = Analytics::performQuery(
+
+Period::create($startDate, $endDate),
+
+'ga:users,ga:sessions,ga:uniqueEvents,ga:pageviewsPerSession,ga:avgSessionDuration,ga:totalEvents',
+
+['dimensions' => 'ga:eventCategory,ga:eventAction,ga:eventLabel,ga:deviceCategory']
+
+);
+
+  
+
+$eventReport = collect($response['rows'] ?? [])->map(function (array  $dateRow) {
+
+return [
+
+'eventCategory'=> $dateRow[0],
+
+'eventAction'=> $dateRow[1],
+
+'eventLabel'=>$dateRow[2],
+
+'deviceCategory'=>$dateRow[3],
+
+'users' => $dateRow[4],
+
+'sessions' => $dateRow[5],
+
+'uniqueEvents' =>$dateRow[6],
+
+'pageviewsPerSession' => $dateRow[7],
+
+'avgSessionDuration' => $dateRow[8],
+
+'totalEvents' => $dateRow[9],
+
+  
+
+];
+
+});
+
+  
+
+return  response()->json([ 'eventReport'=>$eventReport,
+
+'browser'=>$browser,
+
+'mostVisitedPages'=>$mostVisitedPages,
+
+'visitors'=>$visitors,
+
+'total_visitors'=>$total_visitors,
+
+'top_referrers'=>$top_referrers,
+
+'analyticsData'=>$analyticsData,
+
+]);
+
 }
 
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDEwNDE0MSwtMTY5ODQ4NzU1LDE1Nj
-g4ODMxNjcsLTE0Mjk3NTkxMzgsLTU0MDUzMDY2NSw2NTUxNzI3
-NCwxMTkwMTI1MzgxLDMwODQxODI5LC0xODk2MTkwNjkyLC01NT
-M2NjI4NzEsLTEzODg4NjA1NzUsLTE3NDgzMzYwMDYsLTI5NDAz
-ODMzMiw3ODMzNTgyNDQsNzgzMzU4MjQ0LC0yNDk1MDU2NDgsMj
-AxNDMyNTQ4NSwxMDk4NjUxODUxLC03NTMxMjE5MDQsLTYyNjk1
-MTQxNV19
+eyJoaXN0b3J5IjpbLTE4NzM2MDk2NzIsMTcwMDEwNDE0MSwtMT
+Y5ODQ4NzU1LDE1Njg4ODMxNjcsLTE0Mjk3NTkxMzgsLTU0MDUz
+MDY2NSw2NTUxNzI3NCwxMTkwMTI1MzgxLDMwODQxODI5LC0xOD
+k2MTkwNjkyLC01NTM2NjI4NzEsLTEzODg4NjA1NzUsLTE3NDgz
+MzYwMDYsLTI5NDAzODMzMiw3ODMzNTgyNDQsNzgzMzU4MjQ0LC
+0yNDk1MDU2NDgsMjAxNDMyNTQ4NSwxMDk4NjUxODUxLC03NTMx
+MjE5MDRdfQ==
 -->
