@@ -56,9 +56,9 @@ Title ကိုကြိုက်တာပေးပါ Metric နဲ့ Dimensio
 ![enter image description here](images/28.PNG)
 
 ![enter image description here](images/29.PNG)
-**google analytics ထဲ Event ထည့်နည်းကို vue-analytics မှာ ရှင်းပြထားပါတယ်**
+**google analytics ထဲ Event ထည့်နည်းကို [vue-analytics](vue.analytics.md) မှာ ရှင်းပြထားပါတယ်**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTg5OTMwMyw0NTAzODQ0MDYsLTM5MT
+eyJoaXN0b3J5IjpbMTUyMDE5Mzk4OSw0NTAzODQ0MDYsLTM5MT
 czODM3NSwtMTU1MDk5NDE4NCw5MzUxODgyLDEyMjQyNzQ4Mzcs
 LTkwOTUwNjczNiw3OTY0OTEyNzcsMTcxOTIxMTA5MCwtMTE1ND
 A0MDIwOSwtMTc4ODc5ODQyNSwtMTI3MTAwNjI0MywxOTkyMDA4
