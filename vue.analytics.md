@@ -8,9 +8,9 @@ import Vue from 'vue'
 import VueAnalytics from 'vue-analytics'
 
 Vue.use(VueAnalytics, {
-  id: 'UA-XXX-X' #
+  id: 'UA-XXX-X' #Tracking ID
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzAxMzIzNzJdfQ==
+eyJoaXN0b3J5IjpbLTkyNDI4NDkxNl19
 -->
