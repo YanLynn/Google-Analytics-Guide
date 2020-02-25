@@ -29,9 +29,11 @@ eg.
 	'event':  'new_subscriber',
 	'formLocation':  'footer'
 	});
-</script>```
+</script>
+```
 
-Google Analytics, 
+
+Google Analytics, Google console , laravel-analytics နှင့် vue-analytics တို့ကို အခုမှစတင်အသုံးပြုတ်
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDg1MTQ1MF19
+eyJoaXN0b3J5IjpbMzg2NDg1MDA0XX0=
 -->
