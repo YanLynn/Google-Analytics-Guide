@@ -40,6 +40,7 @@ google console api မှာ user ကို ထည့်ပြီး add နိ�
 
 --------------------------------------------------------------------------------------
 **Create Event Report**
+
 ![enter image description here](images/26.PNG)
 
 ![enter image description here](images/27.PNG)
@@ -48,8 +49,9 @@ google console api မှာ user ကို ထည့်ပြီး add နိ�
 
 ![enter image description here](images/29.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1MTg4MiwxMjI0Mjc0ODM3LC05MDk1MD
-Y3MzYsNzk2NDkxMjc3LDE3MTkyMTEwOTAsLTExNTQwNDAyMDks
-LTE3ODg3OTg0MjUsLTEyNzEwMDYyNDMsMTk5MjAwODc0OCwxMD
-gwNzMxMjM5LDIwMzY2MDg1NDksNjI1NTYwNDAxXX0=
+eyJoaXN0b3J5IjpbLTE1NTA5OTQxODQsOTM1MTg4MiwxMjI0Mj
+c0ODM3LC05MDk1MDY3MzYsNzk2NDkxMjc3LDE3MTkyMTEwOTAs
+LTExNTQwNDAyMDksLTE3ODg3OTg0MjUsLTEyNzEwMDYyNDMsMT
+k5MjAwODc0OCwxMDgwNzMxMjM5LDIwMzY2MDg1NDksNjI1NTYw
+NDAxXX0=
 -->
