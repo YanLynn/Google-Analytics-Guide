@@ -30,6 +30,8 @@ eg.
 	'formLocation':  'footer'
 	});
 </script>```
+
+Google Analytics, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTg0NjE0MTFdfQ==
+eyJoaXN0b3J5IjpbLTczNDg1MTQ1MF19
 -->
