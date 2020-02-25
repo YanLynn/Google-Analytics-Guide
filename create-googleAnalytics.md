@@ -38,11 +38,11 @@ google console api မှာ user ကို ထည့်ပြီး add နိ�
 
 ![enter image description here](images/25.PNG)
 
-![enter image description here](images/24.PNG)
+==================================================
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDI3NDgzNywtOTA5NTA2NzM2LDc5Nj
-Q5MTI3NywxNzE5MjExMDkwLC0xMTU0MDQwMjA5LC0xNzg4Nzk4
-NDI1LC0xMjcxMDA2MjQzLDE5OTIwMDg3NDgsMTA4MDczMTIzOS
-wyMDM2NjA4NTQ5LDYyNTU2MDQwMV19
+eyJoaXN0b3J5IjpbLTIwODg3MDU2MTYsMTIyNDI3NDgzNywtOT
+A5NTA2NzM2LDc5NjQ5MTI3NywxNzE5MjExMDkwLC0xMTU0MDQw
+MjA5LC0xNzg4Nzk4NDI1LC0xMjcxMDA2MjQzLDE5OTIwMDg3ND
+gsMTA4MDczMTIzOSwyMDM2NjA4NTQ5LDYyNTU2MDQwMV19
 -->
