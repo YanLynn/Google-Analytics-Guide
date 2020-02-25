@@ -42,10 +42,14 @@ google console api မှာ user ကို ထည့်ပြီး add နိ�
 **Create Event Report**
 ![enter image description here](images/26.PNG)
 
-![enter image description here](images/25.PNG)
+![enter image description here](images/27.PNG)
+
+![enter image description here](images/28.PNG)
+
+![enter image description here](images/29.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTk5NjQxMywxMjI0Mjc0ODM3LC05MD
-k1MDY3MzYsNzk2NDkxMjc3LDE3MTkyMTEwOTAsLTExNTQwNDAy
-MDksLTE3ODg3OTg0MjUsLTEyNzEwMDYyNDMsMTk5MjAwODc0OC
-wxMDgwNzMxMjM5LDIwMzY2MDg1NDksNjI1NTYwNDAxXX0=
+eyJoaXN0b3J5IjpbOTM1MTg4MiwxMjI0Mjc0ODM3LC05MDk1MD
+Y3MzYsNzk2NDkxMjc3LDE3MTkyMTEwOTAsLTExNTQwNDAyMDks
+LTE3ODg3OTg0MjUsLTEyNzEwMDYyNDMsMTk5MjAwODc0OCwxMD
+gwNzMxMjM5LDIwMzY2MDg1NDksNjI1NTYwNDAxXX0=
 -->
