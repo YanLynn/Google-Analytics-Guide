@@ -40,10 +40,12 @@ google console api မှာ user ကို ထည့်ပြီး add နိ�
 
 --------------------------------------------------------------------------------------
 **Create Event Report**
+![enter image description here](images/26.PNG)
 
+![enter image description here](images/25.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyMTk5NTcyLDEyMjQyNzQ4MzcsLTkwOT
-UwNjczNiw3OTY0OTEyNzcsMTcxOTIxMTA5MCwtMTE1NDA0MDIw
-OSwtMTc4ODc5ODQyNSwtMTI3MTAwNjI0MywxOTkyMDA4NzQ4LD
-EwODA3MzEyMzksMjAzNjYwODU0OSw2MjU1NjA0MDFdfQ==
+eyJoaXN0b3J5IjpbMTgyMTk5NjQxMywxMjI0Mjc0ODM3LC05MD
+k1MDY3MzYsNzk2NDkxMjc3LDE3MTkyMTEwOTAsLTExNTQwNDAy
+MDksLTE3ODg3OTg0MjUsLTEyNzEwMDYyNDMsMTk5MjAwODc0OC
+wxMDgwNzMxMjM5LDIwMzY2MDg1NDksNjI1NTYwNDAxXX0=
 -->
