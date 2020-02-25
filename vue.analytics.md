@@ -33,7 +33,8 @@ eg.
 ```
 
 
-Google Analytics, Google console , laravel-analytics နှင့် vue-analytics တို့ကို အခုမှစတင်အသုံးပြုတဲ့အတွက်ကြောင့် အမှားတွေလဲ ပါကောင်းပါနိုင်ပါတယ်၊ အဆင်မပြေတာရှိရင်လဲ ပြောပြပေးပါ။ မသိတာရှိ
+Google Analytics, Google console , laravel-analytics နှင့် vue-analytics တို့ကို အခုမှစတင်အသုံးပြုတဲ့အတွက်ကြောင့် အမှားတွေလဲ ပါကောင်းပါနိုင်ပါတယ်၊ အဆင်မပြေတာရှိရင်လဲ ပြောပြပေးပါ။ လွဲနေတာရှိရင်လဲ ပြောပြပေးပါ။ :boy:
+မှတ်ချက်။ ။ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4OTU0MDFdfQ==
+eyJoaXN0b3J5IjpbLTIwNjA0MDA2NTldfQ==
 -->
