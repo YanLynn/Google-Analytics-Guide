@@ -20,6 +20,8 @@ this.$ga.event({
 	eventLabel:  'NewsDeatail',
 })
 ```
+laravel analytics နဲ့လဲ event ထည့်လို့ရပါတယ် 
+ဒီမှာ vue သုံးထားတာဖြစ်တဲ့အတွက် vue analytic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyOTMxMjU3XX0=
+eyJoaXN0b3J5IjpbMjQ4NDUzNzk3XX0=
 -->
