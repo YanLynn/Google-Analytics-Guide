@@ -11,6 +11,14 @@ Vue.use(VueAnalytics, {
   id: 'UA-XXX-X' #Tracking ID
 })
 ```
+
+```javaScript
+this.$ga.event({
+	eventCategory:  'NewsDeatail count by category',
+	eventAction:  this.newdetails[0]['cat_name'],
+	eventLabel:  'NewsDeatail',
+})
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDI4NDkxNl19
+eyJoaXN0b3J5IjpbLTEyODk2MDE3ODZdfQ==
 -->
