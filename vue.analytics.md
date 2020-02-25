@@ -34,7 +34,9 @@ eg.
 
 
 Google Analytics, Google console , laravel-analytics နှင့် vue-analytics တို့ကို အခုမှစတင်အသုံးပြုတဲ့အတွက်ကြောင့် အမှားတွေလဲ ပါကောင်းပါနိုင်ပါတယ်၊ အဆင်မပြေတာရှိရင်လဲ ပြောပြပေးပါ။ လွဲနေတာရှိရင်လဲ ပြောပြပေးပါ။ :boy:
-မှတ်ချက်။ ။ 
+<br>
+မှတ်ချက်။ ။ git .md format များကို stackedit သုံးပြီးရေးထားပါတယ် <br>
+https://stackedit.io/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjA0MDA2NTldfQ==
+eyJoaXN0b3J5IjpbNTE2MzUzMzU4XX0=
 -->
