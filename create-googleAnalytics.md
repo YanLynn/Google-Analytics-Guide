@@ -56,12 +56,12 @@ Title ကိုကြိုက်တာပေးပါ Metric နဲ့ Dimensio
 ![enter image description here](images/28.PNG)
 
 ![enter image description here](images/29.PNG)
-**google analytics ထဲ Event ထည့်နည်းကို [vue-analytics](vue.analytics.md) မှာ ရှင်းပြထားပါတယ်**
+**google analytics ထဲ Event ထည့်နည်းကို [vue-analytics](vue.analytics.md) မှာ ရှင်းပြထားပါတယ်** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMDE5Mzk4OSw0NTAzODQ0MDYsLTM5MT
-czODM3NSwtMTU1MDk5NDE4NCw5MzUxODgyLDEyMjQyNzQ4Mzcs
-LTkwOTUwNjczNiw3OTY0OTEyNzcsMTcxOTIxMTA5MCwtMTE1ND
-A0MDIwOSwtMTc4ODc5ODQyNSwtMTI3MTAwNjI0MywxOTkyMDA4
-NzQ4LDEwODA3MzEyMzksMjAzNjYwODU0OSw2MjU1NjA0MDFdfQ
-==
+eyJoaXN0b3J5IjpbLTE5ODQ2NTA5OTMsMTUyMDE5Mzk4OSw0NT
+AzODQ0MDYsLTM5MTczODM3NSwtMTU1MDk5NDE4NCw5MzUxODgy
+LDEyMjQyNzQ4MzcsLTkwOTUwNjczNiw3OTY0OTEyNzcsMTcxOT
+IxMTA5MCwtMTE1NDA0MDIwOSwtMTc4ODc5ODQyNSwtMTI3MTAw
+NjI0MywxOTkyMDA4NzQ4LDEwODA3MzEyMzksMjAzNjYwODU0OS
+w2MjU1NjA0MDFdfQ==
 -->
