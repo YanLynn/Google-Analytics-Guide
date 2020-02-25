@@ -29,7 +29,9 @@ View Settings ထဲ က View ID ကို laravel ရဲ့ .env file မှာ
 ***ANALYTICS_VIEW_ID=212007534*** ထည့်ပေးရပါမယ်
 ```
 ![enter image description here](images/26.PNG)
-
+```
+Account Setting ထဲဝင်ပါ
+```
 ![enter image description here](images/22.PNG)
 
 ![enter image description here](images/23.PNG)
@@ -39,8 +41,8 @@ View Settings ထဲ က View ID ကို laravel ရဲ့ .env file မှာ
 ![enter image description here](images/24.PNG)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2NDkxMjc3LDE3MTkyMTEwOTAsLTExNT
-QwNDAyMDksLTE3ODg3OTg0MjUsLTEyNzEwMDYyNDMsMTk5MjAw
-ODc0OCwxMDgwNzMxMjM5LDIwMzY2MDg1NDksNjI1NTYwNDAxXX
-0=
+eyJoaXN0b3J5IjpbLTkwOTUwNjczNiw3OTY0OTEyNzcsMTcxOT
+IxMTA5MCwtMTE1NDA0MDIwOSwtMTc4ODc5ODQyNSwtMTI3MTAw
+NjI0MywxOTkyMDA4NzQ4LDEwODA3MzEyMzksMjAzNjYwODU0OS
+w2MjU1NjA0MDFdfQ==
 -->
