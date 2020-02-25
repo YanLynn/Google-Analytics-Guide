@@ -22,6 +22,12 @@ this.$ga.event({
 ```
 laravel analytics နဲ့လဲ event ထည့်လို့ရပါတယ် 
 ဒီမှာ vue သုံးထားတာဖြစ်တဲ့အတွက် vue analytics package သုံးပြီး event ထည့်လိုက်တာပါ။ laravel analytics ကိုသုံးမယ်ဆိုရင် GTM(google task manager) တွဲသုံးရမှာပါ
+
+`window.dataLayer.push({
+'event':  'new_subscriber',
+'formLocation':  'footer'
+});
+</script>`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDgyNzczMV19
+eyJoaXN0b3J5IjpbLTMxNTEwMjYwNV19
 -->
