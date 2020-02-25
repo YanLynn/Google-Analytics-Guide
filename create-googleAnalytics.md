@@ -40,7 +40,11 @@ google console api မှာ user ကို ထည့်ပြီး add နိ�
 
 --------------------------------------------------------------------------------------
 **Create Event Report**
-
+```
+Event Report တင်မဟုတ်ပါ တခြား report များလဲ ထုတ်လို့ပါတယ်
+ဒီမှာတော့ Category အလိုက် News Details ရဲ့ View count ကို report လုပ်ထားတာပါ
+Customization ထဲက Custom Reports ကိုသွားပါ ။ New Custom Report ကိုနိုပ်ပါ
+```
 ![enter image description here](images/26.PNG)
 
 ![enter image description here](images/27.PNG)
@@ -49,9 +53,9 @@ google console api မှာ user ကို ထည့်ပြီး add နိ�
 
 ![enter image description here](images/29.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTA5OTQxODQsOTM1MTg4MiwxMjI0Mj
-c0ODM3LC05MDk1MDY3MzYsNzk2NDkxMjc3LDE3MTkyMTEwOTAs
-LTExNTQwNDAyMDksLTE3ODg3OTg0MjUsLTEyNzEwMDYyNDMsMT
-k5MjAwODc0OCwxMDgwNzMxMjM5LDIwMzY2MDg1NDksNjI1NTYw
-NDAxXX0=
+eyJoaXN0b3J5IjpbMTU2NjkwMDE4MSwtMTU1MDk5NDE4NCw5Mz
+UxODgyLDEyMjQyNzQ4MzcsLTkwOTUwNjczNiw3OTY0OTEyNzcs
+MTcxOTIxMTA5MCwtMTE1NDA0MDIwOSwtMTc4ODc5ODQyNSwtMT
+I3MTAwNjI0MywxOTkyMDA4NzQ4LDEwODA3MzEyMzksMjAzNjYw
+ODU0OSw2MjU1NjA0MDFdfQ==
 -->
