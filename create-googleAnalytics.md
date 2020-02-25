@@ -56,10 +56,12 @@ Title ကိုကြိုက်တာပေးပါ Metric နဲ့ Dimensio
 ![enter image description here](images/28.PNG)
 
 ![enter image description here](images/29.PNG)
+**google analytics ထဲ Event ထည့်နည်းကို vue-analytics မှာ ရှင်းပြထားပါတယ်**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwMzg0NDA2LC0zOTE3MzgzNzUsLTE1NT
-A5OTQxODQsOTM1MTg4MiwxMjI0Mjc0ODM3LC05MDk1MDY3MzYs
-Nzk2NDkxMjc3LDE3MTkyMTEwOTAsLTExNTQwNDAyMDksLTE3OD
-g3OTg0MjUsLTEyNzEwMDYyNDMsMTk5MjAwODc0OCwxMDgwNzMx
-MjM5LDIwMzY2MDg1NDksNjI1NTYwNDAxXX0=
+eyJoaXN0b3J5IjpbLTQwMTg5OTMwMyw0NTAzODQ0MDYsLTM5MT
+czODM3NSwtMTU1MDk5NDE4NCw5MzUxODgyLDEyMjQyNzQ4Mzcs
+LTkwOTUwNjczNiw3OTY0OTEyNzcsMTcxOTIxMTA5MCwtMTE1ND
+A0MDIwOSwtMTc4ODc5ODQyNSwtMTI3MTAwNjI0MywxOTkyMDA4
+NzQ4LDEwODA3MzEyMzksMjAzNjYwODU0OSw2MjU1NjA0MDFdfQ
+==
 -->
