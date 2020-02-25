@@ -2,7 +2,8 @@
 ```
 npm install vue-analytics
 ```
-Start using it your Vue application
+Start using it your Vue application <br>
+app.js မှာ ထည့်ပေးရမယ့် script ပါ
 ```javaScript
 import Vue from 'vue'
 import VueAnalytics from 'vue-analytics'
@@ -11,7 +12,7 @@ Vue.use(VueAnalytics, {
   id: 'UA-XXX-X' #Tracking ID
 })
 ```
-
+event ထည့်နည်း
 ```javaScript
 this.$ga.event({
 	eventCategory:  'NewsDeatail count by category',
@@ -20,5 +21,5 @@ this.$ga.event({
 })
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODk2MDE3ODZdfQ==
+eyJoaXN0b3J5IjpbMzUyOTMxMjU3XX0=
 -->
