@@ -47,7 +47,9 @@ Customization ထဲက Custom Reports ကိုသွားပါ ။ New Custo
 ```
 ![enter image description here](images/26.PNG)
 ```
-
+Title ကိုကြိုက်တာပေးပါ Metric နဲ့ Dimension ကို ပုံပါအတိုင်ပေးပြီး ကျန်တာ ဒီအတိုင်းထားလိုက်ပါ
+ပြီးရင် Save နိုပ်ပါ 
+** google analytics ရဲ့ report မှာဆိုရင် Report data က ၁၅မိနစ်ကနေ ၄၈နာရီ အထိ ကြာတတ်ပါတယ် ၊ 
 ```
 ![enter image description here](images/27.PNG)
 
@@ -55,9 +57,9 @@ Customization ထဲက Custom Reports ကိုသွားပါ ။ New Custo
 
 ![enter image description here](images/29.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTczODM3NSwtMTU1MDk5NDE4NCw5Mz
-UxODgyLDEyMjQyNzQ4MzcsLTkwOTUwNjczNiw3OTY0OTEyNzcs
-MTcxOTIxMTA5MCwtMTE1NDA0MDIwOSwtMTc4ODc5ODQyNSwtMT
-I3MTAwNjI0MywxOTkyMDA4NzQ4LDEwODA3MzEyMzksMjAzNjYw
-ODU0OSw2MjU1NjA0MDFdfQ==
+eyJoaXN0b3J5IjpbNDUwMzg0NDA2LC0zOTE3MzgzNzUsLTE1NT
+A5OTQxODQsOTM1MTg4MiwxMjI0Mjc0ODM3LC05MDk1MDY3MzYs
+Nzk2NDkxMjc3LDE3MTkyMTEwOTAsLTExNTQwNDAyMDksLTE3OD
+g3OTg0MjUsLTEyNzEwMDYyNDMsMTk5MjAwODc0OCwxMDgwNzMx
+MjM5LDIwMzY2MDg1NDksNjI1NTYwNDAxXX0=
 -->
