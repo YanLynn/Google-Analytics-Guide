@@ -9,7 +9,7 @@ import Vue from 'vue'
 import VueAnalytics from 'vue-analytics'
 
 Vue.use(VueAnalytics, {
-  id: 'UA-XXX-X' #Tracking ID
+  id: 'UA-XXX-X' #Tracking-ID
 })
 ```
 event ထည့်နည်း
@@ -31,5 +31,5 @@ eg.
 	});
 </script>```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTE5OTQ2XX0=
+eyJoaXN0b3J5IjpbLTE3OTg0NjE0MTFdfQ==
 -->
