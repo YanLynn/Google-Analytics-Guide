@@ -32,6 +32,7 @@ View Settings ထဲ က View ID ကို laravel ရဲ့ .env file မှာ
 ```
 Account User Management ထဲဝင်ပါ
 Add user ကိုနိုပ်ပြီး google console မှ user ကို permission ပေးဖို့ထည့်ပါမယ်
+google console api မှာ user ကို ထည့်ပြီး add နိုပ်ပါ
 ```
 ![enter image description here](images/23.PNG)
 
@@ -40,7 +41,7 @@ Add user ကိုနိုပ်ပြီး google console မှ user ကိ�
 ![enter image description here](images/24.PNG)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5OTM3MzA1NiwtOTA5NTA2NzM2LDc5Nj
+eyJoaXN0b3J5IjpbMTIyNDI3NDgzNywtOTA5NTA2NzM2LDc5Nj
 Q5MTI3NywxNzE5MjExMDkwLC0xMTU0MDQwMjA5LC0xNzg4Nzk4
 NDI1LC0xMjcxMDA2MjQzLDE5OTIwMDg3NDgsMTA4MDczMTIzOS
 wyMDM2NjA4NTQ5LDYyNTU2MDQwMV19
