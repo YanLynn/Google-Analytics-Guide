@@ -46,14 +46,16 @@ Event Report တင်မဟုတ်ပါ တခြား report များ�
 Customization ထဲက Custom Reports ကိုသွားပါ ။ New Custom Report ကိုနိုပ်ပါ
 ```
 ![enter image description here](images/26.PNG)
+```
 
+```
 ![enter image description here](images/27.PNG)
 
 ![enter image description here](images/28.PNG)
 
 ![enter image description here](images/29.PNG)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NjkwMDE4MSwtMTU1MDk5NDE4NCw5Mz
+eyJoaXN0b3J5IjpbLTM5MTczODM3NSwtMTU1MDk5NDE4NCw5Mz
 UxODgyLDEyMjQyNzQ4MzcsLTkwOTUwNjczNiw3OTY0OTEyNzcs
 MTcxOTIxMTA5MCwtMTE1NDA0MDIwOSwtMTc4ODc5ODQyNSwtMT
 I3MTAwNjI0MywxOTkyMDA4NzQ4LDEwODA3MzEyMzksMjAzNjYw
